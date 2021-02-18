@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+/* THIS IS ALL meant for editing. You might want to do it differently, 
+name the variables differently, 
+use the fonts in other ways in the font hierarchy etc. */
+
+/* change these */
+:root {
+  --bg-color: #f7f6f4;
+  --color-1: #e3e3e3;
+  --color-2: #cccbc9;
+  --color-3: #a1a09e;
+  --color-4: #8a8a8a;
+  --primary-font: "Titillium Web", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+  --main-text-color: #000;
+  --white-space: 1rem;
+}
+
+/*a:hover {
+  color: var(--color-4);
+  text-decoration-line: overline;
+}*/
+html {
+  font-size: 100%;
+  font-family: var(--primary-font);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header,
+main,
+footer {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: calc(2 * var(--white-space));
+}
+
+.full-width {
+  background: var(--bg-color);
+  color: var(--color-4);
+  width: 100%;
+}
+
+.header-wrapper h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  padding-right: 0.75em;
+  font-weight: bold;
+  color: var(--color-4);
+}
+
+.header-wrapper h2 {
+  font-size: 1.6em;
+  color: var(--color-4);
+  font-weight: bold;
+  margin: var(--white-space) 0;
+}
+
+.header-wrapper h3 {
+  font-size: 1.2rem;
+  color: var(--color-4);
+  font-style: italic;
+}
+
+.header-wrapper h4 {
+  font-size: 0.8rem;
+  color: var(--color-4);
+  margin-top: 1rem;
+}
+
+main {
+  padding: calc(2 * var(--white-space));
+}
+
+section {
+  margin-bottom: calc(4 * var(--white-space));
+}
+
+.section-heading {
+  font-style: italic;
+  font-size: 1.3rem;
+  color: #777;
+  margin: 0.5rem 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.swatches li {
+  margin-right: 5vw;
+  height: 15vw;
+  width: 20%;
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+.color-swatch-1 {
+  background-color: var(--bg-color);
+}
+
+.color-swatch-2 {
+  background-color: var(--color-1);
+}
+
+.color-swatch-3 {
+  background-color: var(--color-2);
+}
+
+.color-swatch-4 {
+  background-color: var(--color-3);
+}
+.color-swatch-5 {
+  background-color: var(--color-4);
+}
+.preview {
+  width: 15rem;
+  height: 22.5rem;
+  position: relative;
+  cursor: pointer;
+}
+.image {
+  z-index: 1;
+  width: 15rem;
+  height: 22rem;
+  opacity: 0.5;
+  transition: all 1s;
+}
+.name {
+  z-index: 2;
+  opacity: 0;
+  position: absolute;
+  bottom: 1rem;
+  font: var(--primary-font);
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+  transition: all 1s;
+}
+.preview:hover .image {
+  opacity: 1;
+  transition: all 1s;
+}
+.preview:hover .name {
+  opacity: 1;
+  transition: all 1s;
+}
+
+.icon {
+  position: relative;
+  width: 5rem;
+  height: 7rem;
+  text-align: center;
+  margin: 1rem;
+  cursor: pointer;
+}
+.category {
+  font: var(--primary-font);
+  color: var(--color-4);
+  font-weight: bolder;
+  letter-spacing: 1px;
+  padding: 0;
+  text-decoration-line: none;
+}
+.icon:hover .category {
+  text-decoration-line: underline;
+}
+
+.link-sample {
+  position: relative;
+  margin: 2rem;
+  text-decoration: none;
+  font: var(--primary-font);
+  letter-spacing: 1px;
+  color: var(--color-4);
+  cursor: pointer;
+  z-index: 2;
+  font-weight: bolder;
+  transition: all 0.5s;
+  background-color: var(--bg-color);
+}
+
+.link-sample:hover {
+  background-color: var(--color-2);
+  color: white;
+  transition: all 0.5s;
+}
+.typography-main {
+  color: var(--main-text-color);
+}
+
+.h1-sample {
+  font-family: var(--primary-font);
+  color: var(--color-3);
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.h2-sample {
+  font-family: var(--primary-font);
+  color: var(--color-3);
+  font-size: 1.25rem;
+}
+
+p.typography-sample {
+  font-family: var(--secondary-font);
+  color: #6f6f6f;
+  line-height: 1.5;
+  max-width: 960px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/*a {
+  font-family: var(--primary-font);
+  color: var(--color-3);
+  font-weight: bold;
+  text-decoration: none;
+}*/
+
+p[class*="font-details-"] {
+  margin-top: 0.5rem;
+  margin-bottom: calc(2 * var(--white-space));
+  font-size: 0.75rem;
+  font-family: var(--secondary-font);
+  color: #6f6f6f;
+}
+
+.adjectives ul {
+  font-size: 2rem;
+  opacity: 0.5;
+}
+
+.adjectives ul {
+  flex-direction: column;
+}
+
+footer {
+  font-style: italic;
+}
+
+@media (min-width: 800px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+  }
+
+  .swatches li {
+    margin-right: 3%;
+    height: 10vw;
+    width: 20%;
+  }
+
+  .textures li {
+    height: 15vw;
+  }
+}
+
+@media (min-width: 900px) {
+  .adjectives ul {
+    flex-direction: row;
+  }
+}

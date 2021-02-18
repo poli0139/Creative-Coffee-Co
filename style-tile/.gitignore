@@ -1,0 +1,5 @@
+.DS_Store
+/.vscode
+map*.html
+img/marker.png
+img/*.svg

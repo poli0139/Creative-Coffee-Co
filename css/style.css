@@ -1,0 +1,71 @@
+:root {
+  --bg-color: #f7f6f4;
+  --text-color: #1d2424;
+  --hover-color: #8491a3;
+  --primary-font: "Titillium Web", sans-serif;
+}
+body {
+  background-color: var(--bg-color);
+}
+header {
+  width: 100%;
+  margin: 0;
+}
+h1 {
+  font-family: var(--primary-font);
+  font-size: 3rem;
+  margin-left: 1rem;
+  font-weight: normal;
+  color: var(--text-color);
+  text-shadow: #1d2424 1px 1px 4px;
+  text-transform: uppercase;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 0;
+  width: 100%;
+}
+
+.right,
+.left {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  width: 30%;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+nav ul li a {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  text-decoration-line: none;
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  color: var(--hover-color);
+  text-decoration-line: underline;
+  transition: all 0.5s;
+}
+@media only screen and (max-width: 700px) {
+  .right,
+  .left {
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+}
