@@ -12,7 +12,7 @@
   width: 100%;
   position: absolute;
   margin: 0;
-  background-image: url("/assets/images/1.jpg");
+  background-image: url("../assets/images/1.jpg");
   background-size: cover;
   background-position-y: center;
   opacity: 0.5;
