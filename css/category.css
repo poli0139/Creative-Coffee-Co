@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+}
+.map {
+  height: 25rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+.local-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  height: auto;
+}
+/****dropdown***/
+.dropdown h3 {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  letter-spacing: 2px;
+  margin: 0;
+  cursor: pointer;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.dropdown-content {
+  display: none;
+  row-gap: 0.5rem;
+  transition: all 1s;
+}
+.dropdown-content a {
+  font-family: var(--primary-font);
+  color: var(--hover-color);
+  font-weight: normal;
+  letter-spacing: 2px;
+  padding: 0.2rem;
+  text-decoration-line: none;
+}
+/***dropdown hover***/
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  transition: all 1s;
+}
+.dropdown:hover .dropdown-content a {
+  width: auto;
+}
+.dropdown-content a:hover {
+  text-decoration: underline;
+  color: var(--text-color);
+  background-color: #ffffff;
+}
+/***icons***/
+.icons-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 3rem;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.icon {
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0;
+  align-items: center;
+  cursor: pointer;
+}
+.symbol {
+  background: url("/assets/images/vinyl.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 4rem;
+  height: 4rem;
+}
+.category {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-decoration-line: none;
+  padding: 0;
+}
+.icon:hover .category {
+  text-decoration-line: underline;
+  color: var(--hover-color);
+}
+/***list***/
+
+.list ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 8rem;
+  row-gap: 3rem;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.preview {
+  width: 15rem;
+  height: 22.5rem;
+  position: relative;
+  cursor: pointer;
+}
+.image {
+  z-index: 1;
+  width: 15rem;
+  height: 22rem;
+  opacity: 0.5;
+  transition: all 1s;
+}
+.name {
+  z-index: 2;
+  opacity: 0;
+  position: absolute;
+  bottom: 1rem;
+  font-family: var(--primary-font);
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  transition: all 1s;
+}
+.preview:hover .image {
+  opacity: 1;
+  transition: all 1s;
+}
+.preview:hover .name {
+  opacity: 1;
+  transition: all 1s;
+}
