@@ -11,7 +11,10 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 0;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
   height: auto;
 }
 /****dropdown***/
@@ -75,11 +78,56 @@ body {
   cursor: pointer;
 }
 .symbol {
-  background: url("/assets/images/vinyl.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 4rem;
   height: 4rem;
+}
+/***id***/
+#art {
+  background: url("/assets/images/icons/_Art.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#shopping {
+  background: url("/assets/images/icons/_shopping.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#bar {
+  background: url("/assets/images/icons/_Bar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#roastery {
+  background: url("/assets/images/icons/_Roasters.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#events {
+  background: url("/assets/images/icons/_Events.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#music {
+  background: url("/assets/images/icons/_Music.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#plants {
+  background: url("/assets/images/icons/_Plants.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#giveback {
+  background: url("/assets/images/icons/_Giveback.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#books {
+  background: url("/assets/images/icons/_Book.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .category {
   font-family: var(--primary-font);
