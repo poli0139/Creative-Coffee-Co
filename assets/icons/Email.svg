@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530 530">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 6.55px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #a19f9d;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #cccbc9;
+        stroke-width: 5.85px;
+      }
+
+      .cls-3 {
+        fill: #e3e3e3;
+        stroke-width: 6.39px;
+      }
+    </style>
+  </defs>
+  <g id="Email">
+    <circle class="cls-1" cx="265" cy="265" r="253.46"/>
+    <rect class="cls-2" x="75.33" y="158.68" width="377.7" height="210.04" rx="11.51"/>
+    <path class="cls-3" d="M86.05,167.26,256.12,278.71a14.71,14.71,0,0,0,16.13,0L442.32,167.26a4.88,4.88,0,0,0-.79-8.58H86.84A4.88,4.88,0,0,0,86.05,167.26Z"/>
+  </g>
+</svg>

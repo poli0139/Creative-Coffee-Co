@@ -1,0 +1,31 @@
+<svg id="Music" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530 530">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #a19f9d;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1 {
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        stroke-width: 5.23px;
+      }
+
+      .cls-3 {
+        fill: #a19f9d;
+      }
+
+      .cls-4 {
+        fill: #cccbc9;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="266.39" cy="267.01" r="253.46"/>
+  <rect class="cls-2" x="222.09" y="122.15" width="238.19" height="238.19" rx="9.5"/>
+  <path class="cls-3" d="M169.27,325.85a8.11,8.11,0,1,1,8.11,8.1A8.11,8.11,0,0,1,169.27,325.85Zm8.11,119.09A119.1,119.1,0,1,0,58.28,325.85,119.09,119.09,0,0,0,177.38,444.94Z"/>
+  <path class="cls-4" d="M127.34,325.85a50,50,0,1,1,50,50A50,50,0,0,1,127.34,325.85Zm50,8.1a8.11,8.11,0,1,0-8.11-8.1A8.1,8.1,0,0,0,177.38,334Z"/>
+</svg>

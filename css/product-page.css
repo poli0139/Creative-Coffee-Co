@@ -1,0 +1,39 @@
+.coffee-shop {
+  display: grid;
+  grid-template-areas:
+    ".image .info"
+    ".categories .categories";
+  grid-template-columns: 35rem auto;
+}
+
+.image {
+  height: 30rem;
+  width: 30rem;
+  background-image: url("/assets/images/1.jpg");
+  background-size: cover;
+  margin: 0;
+}
+
+.description {
+  max-width: 500px;
+}
+
+#icon {
+  background-image: url(/assets/icons/Shopping.svg);
+  background-size: cover;
+  height: 5rem;
+  width: 5rem;
+  list-style: none;
+}
+
+@media only screen and (max-width: 530px) {
+  .text {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .image {
+    width: 30rem;
+    margin: 0 auto;
+  }
+}
