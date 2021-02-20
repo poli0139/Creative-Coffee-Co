@@ -32,6 +32,9 @@
   font-size: 5rem;
   transition: all 1s;
 }
+a {
+  text-decoration: none;
+}
 .cover:hover .image {
   opacity: 0.9;
   transition: all 1s;
