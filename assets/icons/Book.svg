@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 530 530">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 6.55px;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5 {
+        stroke: #a19f9d;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #e3e3e3;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: 5.08px;
+      }
+
+      .cls-3 {
+        fill: #a19f9d;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #cccbc9;
+      }
+
+      .cls-5 {
+        stroke-width: 4.91px;
+      }
+    </style>
+  </defs>
+  <g id="Book3">
+    <circle class="cls-1" cx="265" cy="265" r="253.46"/>
+    <g>
+      <rect class="cls-2" x="65.08" y="245.95" width="298.93" height="68.66" rx="4.96" transform="translate(494.83 65.73) rotate(90)"/>
+      <rect class="cls-2" x="119.58" y="239.31" width="325.58" height="55.28" rx="4.96" transform="translate(549.32 -15.42) rotate(90)"/>
+      <rect class="cls-3" x="119.58" y="254.15" width="325.58" height="25.59" transform="translate(549.32 -15.42) rotate(90)"/>
+      <rect class="cls-4" x="209.27" y="238.29" width="325.58" height="55.28" rx="4.96" transform="translate(563.96 -149.19) rotate(79.25)"/>
+      <rect class="cls-3" x="209.27" y="253.14" width="325.58" height="25.59" transform="translate(563.96 -149.19) rotate(79.25)"/>
+      <rect class="cls-5" x="-6.06" y="249.96" width="304.29" height="55.28" rx="4.96" transform="translate(423.68 131.52) rotate(90)"/>
+    </g>
+    <rect class="cls-3" x="-6.06" y="264.8" width="304.29" height="25.59" transform="translate(423.68 131.52) rotate(90)"/>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+.coffee-shop {
+  display: flex;
+  flex-direction: row;
+  column-gap: 3rem;
+  justify-content: space-evenly;
+}
+
+.image {
+  height: auto;
+  width: 30rem;
+  background-image: url("/assets/images/1.jpg");
+  background-size: cover;
+  margin: 0;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30rem;
+  padding: 2rem;
+  font-family: var(--primary-font);
+}
+.categories {
+  margin-top: auto;
+}
+#icon {
+  background-image: url(/assets/icons/Shopping.svg);
+  background-size: cover;
+  height: 5rem;
+  width: 5rem;
+  list-style: none;
+  margin: 0;
+}
+/*.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+.gallery img {
+  width: 12rem;
+  margin: 2rem;
+}*/
+/*@media only screen and (max-width: 530px) {
+  .text {
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .image {
+    width: 30rem;
+    margin: 0 auto;
+  }
+}*/
