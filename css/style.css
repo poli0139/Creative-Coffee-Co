@@ -62,6 +62,10 @@ nav ul li a:hover {
   text-decoration-line: underline;
   transition: all 0.5s;
 }
+footer {
+  height: 10rem;
+  margin-top: auto;
+}
 @media only screen and (max-width: 700px) {
   .right,
   .left {
