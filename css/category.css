@@ -85,7 +85,7 @@ body {
 }
 /***id***/
 #art {
-  background: url("../assets/images/icons/_Art.png");
+  background: url("../assets/images/icons/art.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
