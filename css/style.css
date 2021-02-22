@@ -66,8 +66,30 @@ nav ul li a:hover {
   transition: all 0.5s;
 }
 footer {
-  height: 10rem;
   margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer h2 {
+  font-family: var(--primary-font);
+}
+footer section {
+  display: flex;
+  flex-direction: row;
+}
+.SoMe {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.5rem;
+}
+#instagram {
+  background: url("../assets/icons/instragram.svg");
+  background-size: contain;
+}
+#email {
+  background: url("../assets/icons/email.svg");
+  background-size: contain;
 }
 @media only screen and (max-width: 700px) {
   .right,
