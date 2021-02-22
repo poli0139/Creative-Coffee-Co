@@ -85,47 +85,47 @@ body {
 }
 /***id***/
 #art {
-  background: url("../assets/images/icons/art.png");
+  background: url("../assets/icons/art.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #shopping {
-  background: url("../assets/images/icons/_shopping.png");
+  background: url("../assets/icons/shopping.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #bar {
-  background: url("../assets/images/icons/_Bar.png");
+  background: url("../assets/icons/bar.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #roastery {
-  background: url("../assets/images/icons/_Roasters.png");
+  background: url("../assets/icons/roasters.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #events {
-  background: url("../assets/images/icons/_Events.png");
+  background: url("../assets/icons/events.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #music {
-  background: url("../assets/images/icons/_Music.png");
+  background: url("../assets/icons/music.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #plants {
-  background: url("../assets/images/icons/_Plants.png");
+  background: url("../assets/icons/plants.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #giveback {
-  background: url("../assets/images/icons/_Giveback.png");
+  background: url("../assets/icons/giveback.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #books {
-  background: url("../assets/images/icons/_Book.png");
+  background: url("../assets/icons/book.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }

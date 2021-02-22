@@ -23,14 +23,35 @@
 .categories {
   margin-top: auto;
 }
-#icon {
-  background-image: url("../assets/icons/Shopping.svg");
-  background-size: cover;
-  height: 5rem;
+.icon {
   width: 5rem;
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0;
+  align-items: center;
+  cursor: pointer;
   margin: 0;
 }
+.symbol {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 4rem;
+  height: 4rem;
+}
+#shopping {
+  background: url("../assets/icons/shopping.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.category {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 0;
+}
+
 /*.gallery {
   display: flex;
   flex-direction: row;
