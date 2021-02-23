@@ -43,6 +43,30 @@ a {
   opacity: 1;
   transition: all 1s;
 }
+.suggestions {
+  font-family: var(--primary-font);
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+.similar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+}
+.similar article {
+  margin: 1rem;
+}
+article h3 {
+  margin: 0;
+}
+.img {
+  background: url("../assets/images/image.jpeg");
+  background-size: cover;
+  width: 20rem;
+  height: 20rem;
+}
 @media only screen and (max-width: 530px) {
   .text {
     font-size: 3rem;

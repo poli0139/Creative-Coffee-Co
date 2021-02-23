@@ -1,7 +1,6 @@
 .coffee-shop {
   display: flex;
   flex-direction: row;
-  column-gap: 3rem;
   justify-content: space-evenly;
 }
 
@@ -28,8 +27,11 @@
 .point {
   background: url("../assets/icons/location.svg");
   background-size: contain;
-  width: 3rem;
-  height: 3rem;
+  background-position: center;
+  width: 2rem;
+  height: auto;
+  background-repeat: no-repeat;
+  margin: 0;
 }
 .categories {
   margin-top: auto;
@@ -67,10 +69,11 @@
   display: flex;
   flex-direction: row;
   margin-top: 2rem;
+  justify-content: center;
 }
 .gallery div {
-  width: 15rem;
-  height: 15rem;
+  width: 25rem;
+  height: 25rem;
 }
 .img-1 {
   background: url("../assets/images/image.jpeg");
@@ -84,17 +87,24 @@
   background: url("../assets/images/image.jpeg");
   background-size: cover;
 }
+/***featured***/
 .suggestions {
   font-family: var(--primary-font);
+  margin-bottom: 1rem;
+  margin-top: 3rem;
 }
 .similar {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 0;
 }
 .similar article {
   margin: 1rem;
+}
+article h3 {
+  margin: 0;
 }
 .img {
   background: url("../assets/images/image.jpeg");
