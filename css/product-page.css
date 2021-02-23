@@ -26,7 +26,7 @@
   padding: 0;
 }
 .point {
-  background: url("../assets/icons/location.svg");
+  background: url("");
   background-size: contain;
   width: 3rem;
   height: 3rem;
@@ -50,7 +50,7 @@
   height: 4rem;
 }
 #shopping {
-  background: url("../assets/icons/shopping.svg");
+  background: url("");
   background-size: contain;
   background-repeat: no-repeat;
 }
