@@ -85,47 +85,47 @@ body {
 }
 /***id***/
 #art {
-  background: url("");
+  background: url("../assets/icons/art.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #shopping {
-  background: url("");
+  background: url("../assets/icons/shopping.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #bar {
-  background: url("");
+  background: url("../assets/icons/bar.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #roastery {
-  background: url("");
+  background: url("../assets/icons/roasters.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #events {
-  background: url("");
+  background: url("../assets/icons/events.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #music {
-  background: url("");
+  background: url("../assets/icons/music.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #plants {
-  background: url("");
+  background: url("../assets/icons/plants.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #giveback {
-  background: url("");
+  background: url("../assets/icons/giveback.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 #books {
-  background: url("");
+  background: url("../assets/icons/book.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }

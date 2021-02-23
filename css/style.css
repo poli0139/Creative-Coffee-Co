@@ -84,11 +84,11 @@ footer section {
   margin: 0.5rem;
 }
 #instagram {
-  background: url("");
+  background: url("../assets/icons/instagram.svg");
   background-size: contain;
 }
 #email {
-  background: url("");
+  background: url("../assets/icons/email.svg");
   background-size: contain;
 }
 @media only screen and (max-width: 700px) {

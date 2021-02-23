@@ -26,7 +26,7 @@
   padding: 0;
 }
 .point {
-  background: url("");
+  background: url("../assets/icons/location.svg");
   background-size: contain;
   width: 3rem;
   height: 3rem;
@@ -50,7 +50,7 @@
   height: 4rem;
 }
 #shopping {
-  background: url("");
+  background: url("../assets/icons/shopping.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -84,7 +84,6 @@
   flex-direction: row;
   justify-content: space-around;
   margin: 0;
-  border: solid yellow 3px;
 }
 .similar article {
   margin: 1rem;
