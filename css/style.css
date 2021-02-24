@@ -23,6 +23,16 @@ header h1 {
   text-shadow: #1d2424 1px 1px 4px;
   text-transform: uppercase;
 }
+
+header h2 {
+  font-family: var(--primary-font);
+  font-size: 2rem;
+  margin-left: 4rem;
+  line-height: 0;
+  font-weight: normal;
+  color: var(--text-color);
+}
+
 nav {
   display: flex;
   flex-direction: row;
