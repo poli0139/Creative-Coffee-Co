@@ -7,7 +7,6 @@
 .image {
   height: auto;
   width: 30rem;
-  background-image: url("../assets/images/1.jpg");
   background-size: cover;
   margin: 0;
 }
@@ -76,15 +75,12 @@
   height: 25rem;
 }
 .img-1 {
-  background: url("../assets/images/image.jpeg");
   background-size: cover;
 }
 .img-2 {
-  background: url("../assets/images/image.jpeg");
   background-size: cover;
 }
 .img-3 {
-  background: url("../assets/images/image.jpeg");
   background-size: cover;
 }
 /***featured***/

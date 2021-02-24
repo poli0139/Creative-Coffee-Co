@@ -162,7 +162,7 @@ body {
 }
 .image {
   z-index: 1;
-  width: 15rem;
+  width: 17rem;
   height: 22rem;
   opacity: 0.5;
   transition: all 1s;

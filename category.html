@@ -80,15 +80,17 @@
       </section>
       <section class="list">
         <ul>
-          <li class="place">
-            <a href="product.html"
-              ><div class="preview">
-                <img class="image" src="assets/images/image.jpeg" />
-                <h1 class="name">Name of the place</h1>
-              </div></a
-            >
-          </li>
-          <li class="place">
+          <template id="place-template"
+            ><li class="place">
+              <a href="product.html"
+                ><div class="preview">
+                  <img class="image" src="assets/images/image.jpeg" alt="" />
+                  <h1 class="name">Name of the place</h1>
+                </div></a
+              >
+            </li></template
+          >
+          <!--<li class="place">
             <div class="preview">
               <img class="image" src="assets/images/image.jpeg" />
               <h1 class="name">Name of the place</h1>
@@ -129,7 +131,7 @@
               <img class="image" src="assets/images/image.jpeg" />
               <h1 class="name">Name of the place</h1>
             </div>
-          </li>
+          </li>-->
         </ul>
       </section>
     </main>
@@ -156,5 +158,6 @@
         </div>
       </section>
     </footer>
+    <script src="js/category.js"></script>
   </body>
 </html>
