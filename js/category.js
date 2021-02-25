@@ -1,5 +1,16 @@
-const url = "https://keammds2-e80b.restdb.io/rest/coffeeshops";
-//api key
+const urlParams = new URLSearchParams(window.location.search);
+const cat = urlParams.get("cat");
+const reg = urlParams.get("reg");
+let url = "https://keammds2-e80b.restdb.io/rest/coffeeshops";
+if (cat) {
+  url += '?q={"category" : {"$in" : ["' + cat + '"]}}';
+  console.log(url);
+}
+if (reg) {
+  url += '?q={"region" : {"$in" : ["' + reg + '"]}}';
+  console.log(url);
+}
+/*https://mydb-fafc.restdb.io/rest/people?q={​​"name" : {​​"$in" : ["Joe", "Jane", "Donald"]}​​}​​ */
 
 const options = {
   headers: {
@@ -26,14 +37,7 @@ function handleProductList(data) {
   //console.log(data);
   data.forEach(showProduct);
 }
-/*<li class="place">
-              <a href="product.html"
-                ><div class="preview">
-                  <img class="image" src="assets/images/image.jpeg" />
-                  <h1 class="name">Name of the place</h1>
-                </div></a
-              >
-            </li> */
+
 function showProduct(product) {
   console.log(product);
   //grab the template
@@ -43,9 +47,10 @@ function showProduct(product) {
   //content
   copy.querySelector(
     ".image"
-  ).src = `https://keammds2-e80b.restdb.io/media/${product.images[1]}?s=w`;
+  ).src = `https://keammds2-e80b.restdb.io/media/${product.images[1]}?s=o`;
   copy.querySelector(".image").alt = product.name;
   copy.querySelector(".name").textContent = product.name;
+  copy.querySelector("a").href = `product.html?id=${product._id}`;
   //parent
   const parent = document.querySelector(".list ul");
   //append

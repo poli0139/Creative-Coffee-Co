@@ -1,11 +1,7 @@
 body {
   margin: 0;
 }
-.map {
-  height: 25rem;
-  background-color: white;
-  margin-bottom: 1rem;
-}
+
 .local-nav {
   display: flex;
   flex-direction: row;
@@ -125,7 +121,7 @@ body {
   background-repeat: no-repeat;
 }
 #books {
-  background: url("../assets/icons/book.svg");
+  background: url("../assets/icons/books.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }

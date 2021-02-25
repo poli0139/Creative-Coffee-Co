@@ -34,6 +34,7 @@
 }
 .categories {
   margin-top: auto;
+  justify-content: center;
 }
 .icon {
   width: 5rem;
@@ -50,11 +51,7 @@
   width: 4rem;
   height: 4rem;
 }
-#shopping {
-  background: url("../assets/icons/shopping.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+
 .category {
   font-family: var(--primary-font);
   color: var(--text-color);
@@ -62,6 +59,12 @@
   letter-spacing: 2px;
   margin: 0;
   padding: 0;
+}
+.instagram-icon {
+  background: url("../assets/icons/instagram.svg");
+  background-size: contain;
+  width: 3rem;
+  height: 3rem;
 }
 
 .gallery {

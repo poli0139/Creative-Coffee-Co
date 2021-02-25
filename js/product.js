@@ -1,8 +1,9 @@
-/*const urlParams = new URLSearchParams(window.location.search);
+const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
+
 console.log(id);
 //const id = "6033d7b46afd463c00005740";
-const url = "https://keammds2-e80b.restdb.io/rest/coffeeshops/" + id;*/
+const url = "https://keammds2-e80b.restdb.io/rest/coffeeshops/" + id;
 //api key
 
 const options = {
@@ -45,4 +46,11 @@ function showProduct(product) {
   document.querySelector(
     ".img-3"
   ).style.backgroundImage = ` url("https://keammds2-e80b.restdb.io/media/${product.images[2]}?s=w")`;
+  document.querySelector(
+    ".symbol"
+  ).style.backgroundImage = `url("../assets/icons/${product.category}.svg")`;
+  document.querySelector(".category").textContent = product.category;
+  document.querySelector(
+    ".instagram"
+  ).href = `https://www.instagram.com/${product.instagram}/`;
 }
