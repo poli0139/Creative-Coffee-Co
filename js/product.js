@@ -48,7 +48,7 @@ function showProduct(product) {
   ).style.backgroundImage = ` url("https://keammds2-e80b.restdb.io/media/${product.images[2]}?s=w")`;
   document.querySelector(
     ".symbol"
-  ).style.backgroundImage = `url("/assets/icons/${product.category}.svg")`;
+  ).style.backgroundImage = `url("../assets/icons/${product.category}.svg")`;
   document.querySelector(".category").textContent = product.category;
   document.querySelector(
     ".instagram"
